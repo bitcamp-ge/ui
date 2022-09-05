@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bitcamp.ge - გინდა ისწავლო პროგრამირება ?</title>
+	<link href="/dist/output.css" rel="stylesheet">
+	<link rel="shortcut icon" href="/assets/logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+	<div class="">
+		<div class="relative overflow-hidden bg-sky-700 pb-32">
+			<!-- Menu open: "bg-sky-900", Menu closed: "bg-transparent" -->
+			<nav
+				class="bg-transparent relative z-10 border-b border-teal-500 border-opacity-25 lg:border-none lg:bg-transparent">
+				<div class="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
+					<div class="relative flex h-16 items-center justify-between">
+						<div class="flex items-center px-2 lg:px-0">
+							<div class="flex-shrink-0">
+								<img class="block h-8 w-auto" src="/assets/logo.jpg" alt="BitCamp Logo">
+							</div>
+							<div class="hidden lg:ml-6 lg:block lg:space-x-4">
+								<div class="flex">
+									<!-- Current: "bg-black bg-opacity-25", Default: "hover:bg-sky-800" -->
+									<a href="#"
+										class="bg-black bg-opacity-25 rounded-md py-2 px-3 text-sm font-medium text-white">Full-Stack
+										პროგრამები</a>
+
+									<a href="#" class="hover:bg-sky-800 rounded-md py-2 px-3 text-sm font-medium text-white">React</a>
+
+									<a href="#"
+										class="hover:bg-sky-800 rounded-md py-2 px-3 text-sm font-medium text-white">ალგორითმები</a>
+
+									<a href="#" class="hover:bg-sky-800 rounded-md py-2 px-3 text-sm font-medium text-white">Blockchain</a>
+								</div>
+							</div>
+						</div>
+						<div class="flex flex-1 justify-center px-2 lg:ml-6 lg:justify-end">
+
+						</div>
+						<h1 class="text-white font-bold">სწავლა და ბრძოლა ✊ 🔥</h1>
+					</div>
+				</div>
+
+				<!-- Mobile menu, show/hide based on menu state. -->
+				<div class="bg-sky-900 lg:hidden" id="mobile-menu">
+					<div class="space-y-1 px-2 pt-2 pb-3">
+						<!-- Current: "bg-black bg-opacity-25", Default: "hover:bg-sky-800" -->
+						<a href="#"
+							class="bg-black bg-opacity-25 block rounded-md py-2 px-3 text-base font-medium text-white">Full-Stack
+							პროგრამები</a>
+
+						<a href="#" class="hover:bg-sky-800 block rounded-md py-2 px-3 text-base font-medium text-white">React</a>
+
+						<a href="#"
+							class="hover:bg-sky-800 block rounded-md py-2 px-3 text-base font-medium text-white">Applicants</a>
+
+						<a href="#" class="hover:bg-sky-800 block rounded-md py-2 px-3 text-base font-medium text-white">Company</a>
+					</div>
+					<div class="border-t border-sky-800 pt-4 pb-3">
+						<div class="flex items-center px-4">
+							<div class="flex-shrink-0">
+								<img class="h-10 w-10 rounded-full"
+									src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=320&h=320&q=80"
+									alt="">
+							</div>
+							<div class="ml-3">
+								<div class="text-base font-medium text-white">Debbie Lewis</div>
+								<div class="text-sm font-medium text-sky-200">debbielewis@example.com</div>
+							</div>
+							<button type="button"
+								class="ml-auto flex-shrink-0 rounded-full p-1 text-sky-200 hover:bg-sky-800 hover:text-white focus:bg-sky-900 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-sky-900">
+								<span class="sr-only">View notifications</span>
+								<!-- Heroicon name: outline/bell -->
+								<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+									stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+									<path stroke-linecap="round" stroke-linejoin="round"
+										d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+								</svg>
+							</button>
+						</div>
+						<div class="mt-3 px-2">
+							<a href="#"
+								class="block rounded-md py-2 px-3 text-base font-medium text-sky-200 hover:bg-sky-800 hover:text-white">Your
+								Profile</a>
+
+							<a href="#"
+								class="block rounded-md py-2 px-3 text-base font-medium text-sky-200 hover:bg-sky-800 hover:text-white">Full-Stack
+								პროგრამები</a>
+
+							<a href="#"
+								class="block rounded-md py-2 px-3 text-base font-medium text-sky-200 hover:bg-sky-800 hover:text-white">Sign
+								out</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<!-- Menu open: "bottom-0", Menu closed: "inset-y-0" -->
+			<div aria-hidden="true"
+				class="inset-y-0 absolute inset-x-0 left-1/2 w-full -translate-x-1/2 transform overflow-hidden lg:inset-y-0">
+				<div class="absolute inset-0 flex">
+					<div class="h-full w-1/2" style="background-color: #262A43"></div>
+					<div class="h-full w-1/2" style="background-color: #262A43"></div>
+				</div>
+				<div class="relative flex justify-center">
+					<img src="/assets/bitcmap.jpg" alt="" style="margin-top: -70px; max-width: 1000px;">
+				</div>
+			</div>
+			<header class="relative py-10">
+				<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+					<h1 class="text-3xl font-bold tracking-tight text-white">Full-Stack პროგრამები</h1>
+				</div>
+			</header>
+		</div>
+
+		<main class="relative -mt-32">
+			<div class="mx-auto max-w-screen-xl px-4 pb-6 sm:px-6 lg:px-8 lg:pb-16">
+				<!-- Content Section -->
+				<div class="overflow-hidden rounded-lg bg-white shadow">
+					<!-- This example requires Tailwind CSS v2.0+ -->
+					<div class="bg-white">
+						<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+							<div
+								class="mt-12 space-y-4 sm:mt-16 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:mx-auto lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4">
+								<div class="divide-y divide-gray-200 rounded-lg border border-gray-200 shadow-sm">
+									<div class="p-6">
+										<h2 class="text-lg font-medium leading-6 text-gray-900">BitCamp</h2>
+										<p class="mt-4 text-sm text-gray-500">გინდა ისწავლო პროგრამირება?</p>
+										<p class="mt-8">
+											<span class="text-4xl font-bold tracking-tight text-gray-900">უფასო</span>
+										</p>
+										<a href="#"
+											class="mt-8 block w-full rounded-md border border-gray-800 bg-gray-800 py-2 text-center text-sm font-semibold text-white hover:bg-gray-900">
+											🔥 დაწყება
+										</a>
+									</div>
+									<div class="px-6 pt-6 pb-8">
+										<h3 class="text-sm font-medium text-gray-900">აღწერა</h3>
+										<ul role="list" class="mt-6 space-y-4">
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">
+													პროგრამირების საფუძვლები
+												</span>
+											</li>
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">ვებ დეველოპმენტის საფუძვლები</span>
+											</li>
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">Front-End - ის საფუძვლები</span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">Back-End - ის საფუძვლები</span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">3 წლიანი წარმატების ისტორია დასაქმების ბაზარზე.</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="divide-y divide-gray-200 rounded-lg border border-gray-200 shadow-sm">
+									<div class="p-6">
+										<h2 class="text-lg font-medium leading-6 text-gray-900">BitCamp LITE</h2>
+										<p class="mt-4 text-sm text-gray-500">
+											საუკეთესო სასწავლო გარემო.
+										</p>
+										<p class="mt-8">
+											<span class="text-4xl font-bold tracking-tight text-gray-900">300ლ</span>
+											<span class="text-base font-medium text-gray-500">/თვეში</span>
+										</p>
+										<a href="#"
+											class="mt-8 block w-full rounded-md border border-gray-800 bg-gray-800 py-2 text-center text-sm font-semibold text-white hover:bg-gray-900">
+											🚀 შეძენა
+										</a>
+									</div>
+									<div class="px-6 pt-6 pb-8">
+										<h3 class="text-sm font-medium text-gray-900">აღწერა</h3>
+										<ul role="list" class="mt-6 space-y-4">
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">შენი ტემპით</span>
+											</li>
+
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">
+													ტუტორების მომსახურება
+												</span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">პრიორიტეტული წვდომა პრემიუმ ლექციებზე</span>
+											</li>
+
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">დავალებები და პროექტები პორთფოლიოს გასამდიდრებლად</span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">წვდომა Discord სერვერზე: ონლაინ სამუსაო სივრცე და ახალი კონტაქტები ტექნოლოგიების სფეროში</span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">
+													დახმარება დასაქმებაში: რეზიუმეს მომზადება, პოზიციების შერჩევა, რჩევები და კონსულტაცია როგორც გლობალურ ისე ქართულ ბაზარზე. 
+												</span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">
+													რეკომენდაცია კომპანიებში გამორჩეულად შრომისმოყვარე LITE წევრებისთვის.
+												</span>
+											</li>
+
+										</ul>
+									</div>
+								</div>
+
+								<div class="divide-y divide-gray-200 rounded-lg border border-gray-200 shadow-sm">
+									<div class="p-6">
+										<h2 class="text-lg font-medium leading-6 text-gray-900">BitCamp PLUS</h2>
+										<p class="mt-4 text-sm text-gray-500">ბრძოლა მენტორთან ერთად!</p>
+										<p class="mt-8">
+											<span class="text-4xl font-bold tracking-tight text-gray-900">600ლ</span>
+											<span class="text-base font-medium text-gray-500">/თვეში</span>
+										</p>
+										<a href="#"
+											class="mt-8 block w-full rounded-md border border-gray-800 bg-gray-800 py-2 text-center text-sm font-semibold text-white hover:bg-gray-900">
+											🚀 შეძენა
+										</a>
+									</div>
+									<div class="px-6 pt-6 pb-8">
+										<h3 class="text-sm font-medium text-gray-900">აღწერა</h3>
+										<ul role="list" class="mt-6 space-y-4">
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">შენი ტემპით</span>
+											</li>
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">მოიცავს ყველაფერს LITE - დან  </span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">პროფესიონალი მენტორის მომსახურება</span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500"> მზადება ინტერვიუსთვის </span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">რეკომენდაციის გაწევა სხვა და სხვა კომპანიებში</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="divide-y divide-gray-200 rounded-lg border border-gray-200 shadow-sm">
+									<div class="p-6">
+										<h2 class="text-lg font-medium leading-6 text-gray-900">BitCamp PRO</h2>
+										<p class="mt-4 text-sm text-gray-500">სუპერ ინტენსიური.</p>
+										<p class="mt-8">
+											<span class="text-4xl font-bold tracking-tight text-gray-900">900ლ</span>
+											<span class="text-base font-medium text-gray-500">/თვეში</span>
+										</p>
+										<a href="#"
+											class="mt-8 block w-full rounded-md border border-gray-800 bg-gray-800 py-2 text-center text-sm font-semibold text-white hover:bg-gray-900">
+											🚀 შეძენა
+										</a>
+									</div>
+									<div class="px-6 pt-6 pb-8">
+										<h3 class="text-sm font-medium text-gray-900">აღწერა</h3>
+										<ul role="list" class="mt-6 space-y-4">
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">სუპერ ინტენსიური ტემპით</span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">მოიცავს ყველაფერს LITE - იდან და PLUS - იდან</span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500">მზადება ინტერვიუსთვის + Mock ინტერვიუები</span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500"> მუდმივი მხარდაჭერა დაწყებიდან დასაქმებამდე და შემდეგ </span>
+											</li>
+
+											<li class="flex space-x-3">
+												<!-- Heroicon name: mini/check -->
+												<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd"
+														d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+														clip-rule="evenodd" />
+												</svg>
+												<span class="text-sm text-gray-500"> დახმარება გლობალურ ბაზარზე გასვლაში </span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+
+</html>
